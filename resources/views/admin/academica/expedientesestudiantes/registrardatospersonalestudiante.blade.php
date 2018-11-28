@@ -17,7 +17,7 @@ $(document).ready(function(){
 <div class="box box-primary">
             <div class="box-header">
               <div class="col-sm-8">
-                <h2 class="box-title"><Strong>Crear expediente estudiantil - Datos personales</Strong></h2>
+                <h2 class="box-title"><Strong>Crear expediente estudiantil - Datos personales -prubeagit</Strong></h2>
               </div>
               </div>
 
