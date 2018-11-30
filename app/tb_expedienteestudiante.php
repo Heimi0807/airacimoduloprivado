@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class registrardatospersonalestudiante extends Model
+class tb_expedienteestudiante extends Model
 {
 
     protected $table='tb_expedienteestudiante';
