@@ -44,7 +44,7 @@
         <div class="form-group">
             {!! Form::label('lbclave', 'Contraseña',['class'=>'col-sm-4 control-label']) !!}
             <div class="col-sm-4">
-                {!! Form::text('txtcontrasena',null,['class'=>'form-control pull-right','placeholder'=>'Clave de ingreso','']) !!}
+                {!! Form::text('txtpassword',null,['class'=>'form-control pull-right','placeholder'=>'Clave de ingreso','']) !!}
             </div>
         </div>
 
