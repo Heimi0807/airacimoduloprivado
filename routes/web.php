@@ -91,7 +91,10 @@ Route::get('editartipocargorh', ['as' => 'editartipocargorh', 'uses' => 'Cargosr
 //configuraciones recurso humano - tipo personal
 Route::get('listatipopersonalrh', ['as' => 'listatipopersonalrh', 'uses' => 'TipopersonalrhController@index']);
 Route::get('creartipopersonalrh', ['as' => 'creartipopersonalrh', 'uses' => 'TipopersonalrhController@creartipopersonal']);
-Route::get('editartipopersonalrh', ['as' => 'editartipopersonalrh', 'uses' => 'TipopersonalrhController@editartipopersonal']);
+Route::get('editartipopersonalrh/{id}', ['as' => 'editartipopersonalrh', 'uses' => 'TipopersonalrhController@editartipopersonal']);
+Route::post('agregartipopersonalrh', ['as' => 'agregartipopersonalrh', 'uses' => 'TipoPersonalrhController@agregartipopersonal']);
+Route::put('actualizartipopersonalrh/{id}', ['as' => 'actualizartipopersonalrh', 'uses' => 'TipoPersonalrhController@actualizartipopersonal']);
+Route::get('eliminartipopersonalrh/{id}', ['as' => 'eliminartipopersonalrh', 'uses' => 'TipoPersonalrhController@eliminartipopersonal']);
 
 // gestion de matricula
 Route::get('solicitudmatriculaenlinea', ['as' => 'llenarsolicitudmatricula','uses' => 'SolicitudmatriculaenlineaController@index']);
